@@ -16,6 +16,7 @@
         "charges": 4,
         "primary_material": "processed_food",
         "spoils_in": "4 days",
+        "fun": 6,
         "flags": ["EATEN_HOT"]
     },
     {
@@ -26,7 +27,7 @@
         "description": "A box of chicken nuggets made in the shape of dinosaurs. Fully cooked, best served hot.",
         "symbol": "%",
         "looks_like": "chicken_nuggets",
-        "fun": 10,
+        "fun": 7,
         "monotony_penalty": 1,
         "price": 500,
         "price_postapoc": 150
