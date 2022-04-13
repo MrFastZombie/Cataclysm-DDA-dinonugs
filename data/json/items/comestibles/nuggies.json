@@ -1,0 +1,49 @@
+[
+    {
+        "id": "chicken_nuggets",
+        "type": "COMESTIBLE",
+        "comestible_type": "FOOD",
+        "name": {"str": "uncooked chicken nuggets"},
+        "description": "Unheated nuggets made from chicken. Fully cooked, best served hot.",
+        "symbol": "c",
+        "color": "brown",
+        "calories": 190,
+        "vitamins": [["calcium", 2],["iron", 4]],
+        "price": 375,
+        "price_postapoc": 115,
+        "charges": 4,
+        "primaty_material:": "meat",
+        "spoils_in": "4 days"
+    },
+    {
+        "id": "dino_nuggies",
+        "copy-from": "chicken_nuggets",
+        "name": {"str": "uncooked dino nuggies"},
+        "description": "Unheated chicken nuggets made in the shape of dinosaurs. Fully cooked, best served hot.",
+        "symbol": "d",
+        "looks_like": "chicken_nuggets",
+        "fun": 5,
+        "monotony_penalty": 1,
+        "price": 500,
+        "price_postapoc": 150
+    },
+    {
+        "id": "chicken_nuggets_cooked",
+        "copy-from": "chicken_nuggets",
+        "name": {"str": "cooked chicken nuggets"},
+        "description": "Nuggets made from chicken. Fully cooked, best served hot.",
+        "symbol": "C",
+        "looks_like": "chicken_nuggets",
+        "flags": ["EATEN_HOT"]
+    },
+    {
+        "id": "dino_nuggies_cooked",
+        "copy-from": "dino_nuggies",
+        "name": {"str": "cooked dino nuggies"},
+        "description": "A box of chicken nuggets made in the shape of dinosaurs. Fully cooked, best served hot.",
+        "symbol": "D",
+        "looks_like": "dino_nuggies",
+        "fun": 10,
+        "flags": ["EATEN_HOT"]
+    }
+]
