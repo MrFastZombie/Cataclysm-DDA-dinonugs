@@ -582,7 +582,7 @@
       { "item": "pie_maple", "prob": 9 },
       { "item": "gelatin_dessert_processed", "prob": 40 },
       { "item": "chicken_nuggets", "prob": 10 },
-      { "item": "dino_nuggies", "prob": 4}
+      { "item": "dino_nuggies", "prob": 6}
     ]
   },
   {
@@ -866,8 +866,8 @@
       { "item": "touristmap", "prob": 2 },
       { "item": "noodles_fast", "prob": 30 },
       { "item": "milkshake_fastfood", "prob": 15 },
-      { "item": "chicken_nuggets", "prob": 10 },
-      { "item": "dino_nuggies", "prob": 3 },
+      { "item": "chicken_nuggets", "prob": 70 },
+      { "item": "dino_nuggies", "prob": 30 },
       { "group": "teabag_box", "prob": 5 },
       { "group": "soup_box", "prob": 5 }
     ]

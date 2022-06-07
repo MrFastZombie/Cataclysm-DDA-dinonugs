@@ -847,7 +847,9 @@
       { "item": "junk_burrito", "prob": 50 },
       { "item": "icecream_artificial", "prob": 30 },
       { "item": "icecream_candy", "prob": 20 },
-      { "item": "sundae_cup", "prob": 30 }
+      { "item": "sundae_cup", "prob": 30 },
+      { "item": "chicken_nuggets", "prob": 50},
+      { "item": "dino_nuggies", "prob": 30 }
     ]
   },
   {
@@ -950,6 +952,8 @@
       { "item": "pickle", "prob": 10, "charges": 2, "container-item": "jar_glass_sealed" },
       [ "lutefisk", 15 ],
       [ "fries", 15 ],
+      [ "chicken_nuggets", 15],
+      [ "dino_nuggies", 5],
       [ "cheese_fries", 10 ],
       [ "onion_rings", 10 ],
       [ "royal_beef", 1 ],
@@ -1109,6 +1113,8 @@
       { "item": "fries", "prob": 10 },
       { "item": "onion_rings", "prob": 8 },
       { "item": "fchicken", "prob": 8 },
+      { "item": "chicken_nuggets", "prob": 7},
+      { "item": "dino_nuggies", "prob": 3},
       { "item": "sausage", "prob": 8 },
       { "item": "bratwurst_sausage", "prob": 6 },
       { "item": "sweet_sausage", "prob": 2 },
@@ -1143,6 +1149,8 @@
       { "item": "bacon", "prob": 20 },
       { "item": "fries", "prob": 20 },
       { "item": "onion_rings", "prob": 20 },
+      { "item": "chicken_nuggets", "prob": 15},
+      { "item": "dino_nuggies", "prob": 5},
       { "item": "sausage", "prob": 20 },
       { "item": "bratwurst_sausage", "prob": 10 },
       { "item": "sweet_sausage", "prob": 5 },
